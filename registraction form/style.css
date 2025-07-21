@@ -1,0 +1,75 @@
+
+   
+
+
+body{
+     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;         
+    background:linear-gradient(blue, red); 
+}
+
+.main{
+    background:white;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    
+}
+
+
+.name {
+    display: flex;
+    padding: 15px;
+}
+
+.email{
+    display: flex;
+     padding: 15px;
+}
+.password{
+    display: flex;
+     padding: 15px;
+}
+h3{
+    padding-bottom: 5px;
+}
+
+.gender{
+    padding:20px;
+    
+}
+
+.male{
+    margin-right: 20px;
+}
+
+.maingender{
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 20px;
+}
+
+.fullname{
+    height: 40px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    font-size: 20px;
+    height: 50px;
+    width:100px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
