@@ -1,0 +1,51 @@
+.main2{
+ display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, auto); 
+     gap: 10px;
+       max-width: 420px; 
+       border: none;
+       height: 400px;
+       padding: 20px;
+}
+
+.main input{
+    margin-bottom: 20px;
+    width: 390px;
+    height:30px;
+    border-radius: 10px;
+    height:50px;
+    background: black;
+    color:white;
+    border: none;
+}
+
+.btn{
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    background:rgb(77, 72, 73);
+    color: white;
+    border: none;
+    
+}
+
+#blue-color-buttons{
+    color: blue;
+}
+
+#equals{
+    background: blue;
+}
+
+.main{
+    background: black;
+    max-width: 400px;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
