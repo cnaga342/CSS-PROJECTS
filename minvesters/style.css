@@ -1,0 +1,53 @@
+
+body{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+     justify-content: space-around;
+     width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+    
+    
+}
+
+.image>img{
+    width: 200px;
+    height:200px;
+    background: black;
+    
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    
+    
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+
+}
+
+.main2 .image{
+    margin: 10px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.main2 .img2{
+    height: 40px;
+}
+
+
+
